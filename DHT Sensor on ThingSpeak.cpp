@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <WiFi.h>       //for wifi IoT
-#include <DHT.h>        //library for DHT
-#include <ThingSpeak.h> //for connection with thingspeak (IoT Platform on cloud.)
+#include "DHT.h"        //library for DHT
+#include "ThingSpeak.h" //for connection with thingspeak (IoT Platform on cloud.)
 
 #define DHTPIN 2      // sensor connected on GPIO2 of module
 #define DHTTYPE DHT22 // sensor type DHT22
