@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include <DHT.h> //library for DHT
+#include "DHT.h" //library for DHT
 
 #define DHTPIN 2 //sensor connected on GPIO2 of module 
 #define DHTTYPE DHT22 //sensor type DHT22
